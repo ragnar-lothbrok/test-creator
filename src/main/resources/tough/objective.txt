@@ -1,0 +1,163 @@
+public static void main(String []str){
+    final int a=10,b=20;
+    while(a < b){
+        System.out.println("Hello");
+    }
+    System.out.println("World");
+}
+A.	Stackoverflow Exception
+B.	 Hello
+C.	World
+D.	Compilation Error
+
+
+=======================================A=======================================
+
+public static void main(String args[]) {
+    int array[] = new int [5];
+            for (int i = 5; i > 0; i--)
+               array[5-i] = i;
+            Arrays.fill(array, 1, 4, 8);
+            for (int i = 0; i < 5 ; i++)
+                System.out.print(array[i]);
+        }
+
+A.	1 2 3 4 5
+B.	 1 8 8 8 8
+C.	1 8 8 8 5
+D.	8 8 8 8 8
+
+=======================================C=======================================
+
+
+@Test
+public void testOverloadedMethod(){
+    callTest("Test");
+}
+public void test(String str){
+    System.out.println("String");
+}
+
+public void test(Object str){
+    System.out.println("Object");
+}
+
+public <T> void callTest(T t){
+    test(t);
+}
+
+A.	String
+B.	 Object
+C.	Runtime Error
+D.	Compilation Error
+
+
+=======================================B=======================================
+
+public static void main(String[] args) {
+    Map<Date, String> map = new HashMap<>();
+    Date currentDate = new Date();
+
+    map.put(currentDate, "Test");
+    Date newDate = new Date(currentDate.getTime());
+    System.out.println(map.get(newDate));
+}
+
+A.	null
+B.	Test
+C.	Runtime Error
+D.	Test, Test
+
+
+=======================================B=======================================
+
+public static void main(String[] args) {
+    Integer []arr = {1,2,3,4};
+    List<Integer> list = Arrays.asList(arr);
+    for(Integer value : list){
+        list.remove(1);
+    }
+}
+
+
+A.	Compilation Error.
+B.	CuncurrentModification error.
+C.	Unsupported Method error.
+D.	Executed Successfully.
+
+=======================================C=======================================
+
+public static void main(String[] args) throws Exception {
+    char x = 'X';
+    int i = 0;
+    System.out.print(true? x : 0);
+    System.out.print(false? i : x);
+}
+
+A.	XX
+B.	 X86
+C.	0X
+D.	0
+
+=======================================B=======================================
+
+public static void main(String[] args) throws Exception {
+    short x = 0;
+    int i = 65535;
+    x+=i;
+    System.out.print(x);
+}
+[Range of Short data type : -32,768 to 32,767]
+
+A.	Compilation error.
+B.	 65535
+C.	-1
+D.	0
+
+=======================================C=======================================
+
+public static void main(String[] args) throws Exception {
+    final String str1 = "length: 10";
+    final String str2 = "length: " + str1.length();
+    System.out.println("Both strings are" + str1 == str2);
+}
+
+A.	Both strings are true
+B.	 Both strings are false
+C.	true
+D.	false
+
+=======================================D=======================================
+
+public class Employee {
+    private Employee employee = new Employee( );
+
+    public Employee ( ) throws Exception {
+        throw new Exception("I'm not coming out");
+    }
+    public static void main(String[ ] args) {
+        try {
+            Employee  b = new Employee ( );
+            System.out.println("Surprise!");
+        } catch (Exception ex) {
+            System.out.println("I told you so");
+        }
+    }
+}
+A.	Stackoverflow Exception
+B.	 I'm not coming out
+C.	Surprise!
+D.	I told you so
+
+=======================================A=======================================
+
+_____ involves putting different rows into different tables. [2 marks]
+
+A.	Horizontal partitioning 
+B.	Vertical partitioning 
+C.	Range partitioning
+D.	Hash partitioning
+
+=======================================A=======================================
+
+

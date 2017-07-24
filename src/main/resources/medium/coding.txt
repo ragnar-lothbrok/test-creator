@@ -1,0 +1,47 @@
+Given an array and a value, find if there is a triplet in array whose sum is equal to the given value. If there is such a triplet present in array, then print the triplet and return true. Else return false. 
+
+Example, if the given array is {12, 3, 4, 1, 6, 9} and given sum is 24, 
+then there is a triplet (12, 3 and 9) present in array whose sum is 24.
+
+
+=============================================================================================
+
+
+Write a program to reverse a given Linked List? (Don't use java collections)
+Input 1 -> 2 -> 3 -> 5    
+Output 5 -> 3 -> 2 -> 1
+
+=============================================================================================
+
+Check for balanced parentheses in an expression
+Given an expression string exp , write a program to examine whether the pairs and the orders of “{“,”}”,”(“,”)”,”[“,”]” are correct in exp. 
+
+Example : 
+
+“[()]{}{[()()]()}” === output is true
+
+&
+ “[(])”    ===  output is false
+
+=============================================================================================
+
+Sort elements by frequency
+Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.
+
+Examples:
+
+Input:  arr[] = {2, 5, 2, 8, 5, 6, 8, 8}
+Output: arr[] = {8, 8, 8, 2, 2, 5, 5, 6}
+
+Input: arr[] = {2, 5, 2, 6, -1, 9999999, 5, 8, 8, 8}
+Output: arr[] = {8, 8, 8, 2, 2, 5, 5, 6, -1, 9999999}
+
+=============================================================================================
+
+Write a program to remove duplicates from sorted array
+
+=============================================================================================
+
+Write a program to get a line with max word count from the given file
+
+=============================================================================================

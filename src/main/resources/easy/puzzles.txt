@@ -1,0 +1,3 @@
+There are three boxes, one contains only apples, one   contains only oranges, and one contains both apples and oranges. The boxes have been incorrectly labeled such that no label identifies the actual contents of the box it labels. How many boxes you will open to label all of the boxes correctly?
+ 
+==============================================================================

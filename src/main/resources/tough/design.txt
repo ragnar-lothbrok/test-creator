@@ -1,0 +1,12 @@
+Design chess game using Object Oriented principles and write down high and low level design specifications. Please include design patterns used.
+
+==============================================================================
+
+Design Parking Lot using Object Oriented principles and write down high and low level design specifications. Please include design patterns used.
+
+==============================================================================
+
+
+Design ATM using Object Oriented principles and write down high and low level design specifications. Please include design patterns used.
+
+==============================================================================

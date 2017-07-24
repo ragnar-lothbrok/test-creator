@@ -1,0 +1,204 @@
+What is the output of this program?
+class A
+{
+     A()throws IOException
+     {
+ 
+     } 
+}
+class B extends A
+{
+     B()
+     {
+ 
+     }
+     public static void main(String[]args)
+     {
+ 
+     }
+}
+a) compile time error
+b) run time error
+c) compile and runs fine
+d) unreported exception java.io.IOException in default constructor
+
+
+==============================================================================
+
+Which of the following statements is correct?
+
+a) Public method is accessible to all other classes in the hierarchy
+b) Public method is accessible only to subclasses of its parent class
+c) Public method can only be called by object of its class.
+d) Public method can be accessed by calling object of the public class.
+
+
+==============================================================================
+
+
+What is the output of this program?
+
+    class A {
+        public int i;
+        private int j;
+    }    
+    class B extends A {
+        void display() {
+            super.j = super.i + 1;
+            System.out.println(super.i + " " + super.j);
+        }
+    }    
+    class inheritance {
+        public static void main(String args[])
+        {
+            B obj = new B();
+            obj.i=1;
+            obj.j=2;   
+            obj.display();     
+        }
+   }
+a) 2 2
+b) 3 3
+c) Runtime Error
+d) Compilation Error
+
+==============================================================================
+
+What is the output of this program?
+
+    class output {
+        public static void main(String args[])
+        { 
+           String s1 = "Hello i love java";
+           String s2 = new String(s1);
+           System.out.println((s1 == s2) + " " + s1.equals(s2));
+        }
+    }
+a) true true
+b) false false
+c) true false
+d) false true
+
+==============================================================================
+
+Which of these class is related to all the exceptions that can be caught by using catch?
+a) Error
+b) Exception
+c) RuntimeExecption
+d) All of the mentioned
+
+==============================================================================
+
+What Iterator can throw a ConcurrentModificationException?
+
+a. Fail-fast Iterators
+b. Fail-safe Iterators
+c. (All of these)
+d. (None of these)
+
+==============================================================================
+
+Which list class must be preferred in multi-threading environment, considering performance constraint
+
+a. Vector
+b. CopyOnWriteArrayList
+c. ArrayList
+d. ConcurrentArrayList
+
+==============================================================================
+
+Which SQL keyword is used to sort the result-set?
+A. SORT BY
+B. ORDER
+C. ORDER BY
+D. SORT
+
+==============================================================================
+
+What will be the output of the following program code?
+public class Test implements Runnable{
+        public static void main(String[] args){
+                Thread t = new Thread(this);
+                t.start();
+     }
+
+        public void run(){
+                System.out.println("test");
+        }
+}
+
+A. The program does not compile because "this" cannot be referenced in a static method.
+B. The program compiles fine, but it does not print anything because t does not invoke the run() method
+C. The program compiles and runs fine and displays test on the console.
+D. None of the above
+
+==============================================================================
+
+What implementation of Iterator can traverse a collection in both directions?
+
+a. Iterator
+b. ListIterator
+c. SetIterator
+d. MapIterator
+
+==============================================================================
+
+Which constructs an anonymous inner class instance?
+A.	Runnable r = new Runnable() { };
+B.	Runnable r = new Runnable(public void run() { });
+C.	Runnable r = new Runnable { public void run(){}};
+D.	System.out.println(new Runnable() {public void run() { }});
+
+==============================================================================
+	
+What will be the output of the program?
+
+try 
+{ 
+    int x = 0; 
+    int y = 5 / x; 
+} 
+catch (Exception e) 
+{
+    System.out.println("Exception"); 
+} 
+catch (ArithmeticException ae) 
+{
+    System.out.println(" Arithmetic Exception"); 
+} 
+System.out.println("finished");
+
+==============================================================================
+
+	
+What will be the output of the program?
+
+public class X 
+{ 
+    public static void main(String [] args) 
+    {
+        try 
+        {
+            badMethod();  
+            System.out.print("A"); 
+        }  
+        catch (Exception ex) 
+        {
+            System.out.print("B"); 
+        }  
+        finally 
+        {
+            System.out.print("C"); 
+        }  
+        System.out.print("D"); 
+    }  
+    public static void badMethod() {} 
+} 
+A.	AC
+B.	BC
+C.	ACD
+D.	ABCD
+
+==============================================================================
+
+

@@ -1,0 +1,141 @@
+import java.util.*; 
+class I 
+{
+    public static void main (String[] args) 
+    {
+        Object i = new ArrayList().iterator(); 
+        System.out.print((i instanceof List)+","); 
+        System.out.print((i instanceof Iterator)+","); 
+        System.out.print(i instanceof ListIterator); 
+    } 
+}
+
+A.true true true
+B.true false false
+C.true false true
+D.false, true, false
+
+============================================D=================================================
+
+What will be the output of the program?
+TreeSet map = new TreeSet();
+map.add("one");
+map.add("two");
+map.add("three");
+map.add("four");
+map.add("one");
+Iterator it = map.iterator();
+while (it.hasNext() ) 
+{
+    System.out.print( it.next() + " " );
+}
+
+a) one two three four
+b) one
+c) one two four three
+d) four one three two
+
+==========================================D===================================================
+
+
+What is the output of this program?
+    class booloperators {
+        public static void main(String args[]) 
+        {
+            boolean var1 = true;
+	    boolean var2 = false;
+	    System.out.println((var2 & var2));
+        } 
+    }
+
+a) 0
+b) 1
+c) true
+d) false
+
+==========================================D===================================================
+
+If an expression contains double, int, float, long, then whole expression will promoted into which of these data types?
+
+a) long
+b) int
+c) double
+d) float
+=============================================C================================================
+
+Which of these methods deletes all the elements from invoking collection?
+a) clear()
+b) reset()
+c) delete()
+d) refresh()
+
+=========================================A====================================================
+
+Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+a.	java.lang.String
+b.	java.lang.Double
+c.	java.lang.StringBuffer
+d.	java.lang.Character
+
+=========================================C====================================================
+
+Which is best suited to a multi-threaded environment?
+
+a.	WeakHashMap
+b.	Hashtable
+c.	HashMap
+d.	ConcurrentHashMap
+
+
+========================================D=====================================================
+
+class X implements Runnable 
+{ 
+   public static void main(String args[]) 
+    {
+        /* code */
+    } 
+    public void run() {} 
+}
+Which of the following line of code is suitable to start a thread ?
+a.	Thread t = new Thread(X);
+b.	Thread t = new Thread(X); t.start();
+c.	X run = new X(); Thread t = new Thread(run); t.start();
+d.	Thread t = new Thread(); x.run();
+
+==========================================C===================================================
+
+
+What is the priority of the Garbage collector thread of jdk?
+A) Low Priority
+B) Highest Priority
+C) Medium Priority
+D) Decided at run time
+
+==========================================A===================================================
+
+Which of the following statement is false?
+
+A) The sleep() method should be enclosed in try ......... catch block
+B) The yield() method should be enclosed in try ......... catch block.
+C) A thread can be temporarily suspended from running by using the wait() method.
+D) A suspended thread using suspend() method can be revived using the resume() method.
+
+==========================================B===================================================
+
+In which of the following pattern, a class behavior or its algorithm can be changed at run time?
+A - State Pattern
+B - Null Object Pattern
+C - Strategy Pattern
+D - Template Pattern
+
+==========================================C===================================================
+
+Which of the following is the correct list of entities of Front Controller pattern?
+
+A - Front Controller, Dispatcher, View
+B - Front Controller, Dispatcher
+C - Controller, Dispatcher, View
+D - Front Controller, View
+
+==========================================A==================================================

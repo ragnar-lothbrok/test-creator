@@ -1,0 +1,22 @@
+Write a SQL query to get the third highest salary from the table below. 
+          
+EmpId  Salary
+42     200
+54     800
+67     450
+87     780
+
+==============================================================================
+
+There is a table which contains two column Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above average students.
+
+
+==============================================================================
+
+How do you find all employees which are also manager?
+
+You have given a standard employee table with an additional column mgr_id, which contains employee id of the manager
+
+Employee (emp_id,emp_name,emp_address,mgr_id)
+
+=============================================================================================
